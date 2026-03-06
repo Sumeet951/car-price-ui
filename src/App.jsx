@@ -32,7 +32,7 @@ export default function App() {
 
     try {
       const res = await axios.post(
-        "https://car-price-prediction-n98p.onrender.com/predict",
+        "https://car-price-prediction-1-lhps.onrender.com/predict",
         formData
       );
       setPrediction(res.data.predicted_price);
